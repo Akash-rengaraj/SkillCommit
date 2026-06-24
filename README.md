@@ -1,27 +1,33 @@
-<h1 align="center">SkillCommit 🚀</h1>
+<div align="center">
+  <img src="Docs/logo/SkillCommit_logo.png" alt="SkillCommit Logo" width="250" />
 
-<p align="center">
-  <i>Level up your career, one commit at a time. An AI-powered, gamified career GPS for students.</i>
-</p>
+  <h1>SkillCommit 🚀</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend-Flutter-02569B?style=flat-square&logo=flutter" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dashboard-React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/AI_Engine-RAG_%7C_Ollama-FF7000?style=flat-square" alt="RAG & Ollama" />
-  <img src="https://img.shields.io/badge/Database-Vector_DB-4A154B?style=flat-square" alt="Vector DB" />
-</p>
+  <p>
+    <i>Level up your career, one commit at a time. An AI-powered, gamified career GPS for students.</i>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Frontend-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+    <img src="https://img.shields.io/badge/Dashboard-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+    <img src="https://img.shields.io/badge/AI_Engine-RAG_%7C_Ollama-FF7000?style=for-the-badge&logo=ollama&logoColor=white" alt="RAG & Ollama" />
+    <img src="https://img.shields.io/badge/Database-Vector_DB-4A154B?style=for-the-badge&logo=databricks&logoColor=white" alt="Vector DB" />
+  </p>
+</div>
 
 ---
 
 ## 📖 Table of Contents
-- [The Problem](#-the-problem)
-- [The Solution](#-the-solution)
-- [Core Features](#-core-features)
-- [System Architecture](#-system-architecture)
-- [The AI Engine (RAG)](#-the-ai-engine-rag)
-- [Tech Stack](#%EF%B8%8F-tech-stack)
-- [Getting Started](#-getting-started)
+
+- [🚨 The Problem](#-the-problem-analysis-paralysis)
+- [💡 The Solution](#-the-solution)
+- [✨ Core Features](#-core-features)
+- [🏗 System Architecture](#-system-architecture)
+- [🧠 The AI Engine (RAG)](#-the-ai-engine-rag)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📂 Repository Structure](#-repository-structure)
+- [🚀 Getting Started](#-getting-started)
 
 ---
 
@@ -93,12 +99,14 @@ SkillCommit does not rely on static LLM wrappers. It utilizes a **Retrieval-Augm
 
 ## 🛠️ Tech Stack
 
-* **Frontend (Mobile):** Flutter, Dart (Cross-platform iOS/Android)
-* **Frontend (Web Dashboard):** React.js, Tailwind CSS
-* **Backend:** Python, FastAPI (Asynchronous endpoints for LLM streaming)
-* **AI/Machine Learning:** Ollama (Local development), Retrieval-Augmented Generation (RAG)
-* **Databases:** PostgreSQL (User data/XP), Vector DB (ChromaDB/Pinecone for knowledge embeddings)
-* **Environment:** Docker, Kali Linux (System admin & local R&D)
+| Domain | Technology |
+|---|---|
+| **Frontend (Mobile)** | Flutter, Dart (Cross-platform iOS/Android) |
+| **Frontend (Web Dashboard)** | React.js, Tailwind CSS |
+| **Backend** | Python, FastAPI (Asynchronous endpoints for LLM streaming) |
+| **AI/Machine Learning** | Ollama (Local development), Retrieval-Augmented Generation (RAG) |
+| **Databases** | PostgreSQL (User data/XP), Vector DB (ChromaDB/Pinecone for knowledge embeddings) |
+| **Environment** | Docker, Kali Linux (System admin & local R&D) |
 
 ---
 
@@ -124,20 +132,23 @@ SkillCommit/
 ├── .env.example             # Global environment variables template
 ├── .gitignore               # Ignored files and security exclusions
 └── README.md                # Project documentation
+```
 
 ---
 
 ## 🚀 Getting Started
 
-*(Note: Detailed setup instructions and folder structures will be added as the repository is populated during the initial development phases.)*
+> **Note:** Detailed setup instructions and folder structures will be added as the repository is populated during the initial development phases.
 
 ### Prerequisites
+
 * Python 3.10+
 * Flutter SDK
 * Node.js (for React Dashboard)
 * Local LLM environment (e.g., Ollama installed and running)
 
 ---
-<p align="center">
+
+<div align="center">
   <i>Built with 💡 to bridge the gap between academic potential and industry reality.</i>
-</p>
+</div>
