@@ -102,6 +102,31 @@ SkillCommit does not rely on static LLM wrappers. It utilizes a **Retrieval-Augm
 
 ---
 
+## 📂 Repository Structure
+
+SkillCommit follows a highly modular, professional monorepo architecture. This isolates the AI engine, the mobile client, and the institutional web portal for clean, scalable development.
+
+```text
+SkillCommit/
+├── .github/                 # CI/CD pipelines & automated Issue templates
+├── backend/                 # FastAPI Server & AI RAG Engine
+│   ├── app/                 # Core application logic
+│   │   ├── api/             # API routing and endpoints
+│   │   ├── core/            # Database connection & security configs
+│   │   ├── models/          # SQLAlchemy database schemas (PostgreSQL)
+│   │   └── services/        # AI logic, RAG pipeline, & ChromaDB integration
+│   ├── Dockerfile           # Production containerization blueprint
+│   └── requirements.txt     # Python dependencies
+├── dashboard/               # Institutional web portal (React/Next.js)
+├── Docs/                    # Project reports and architectural decisions (ADRs)
+├── frontend/                # Student mobile application (Flutter)
+├── scripts/                 # Automation, database migration, and deployment scripts
+├── .env.example             # Global environment variables template
+├── .gitignore               # Ignored files and security exclusions
+└── README.md                # Project documentation
+
+---
+
 ## 🚀 Getting Started
 
 *(Note: Detailed setup instructions and folder structures will be added as the repository is populated during the initial development phases.)*
